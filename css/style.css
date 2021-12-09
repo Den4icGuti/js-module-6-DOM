@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(55, 25, 190);
+  position: relative;
+  transition: bacground-color 500ms linear;
+}
+
+.box--active {
+  background-color: rgb(255, 80, 182);
+}
+
+.link--current-color {
+  color: tomato;
+}
+
+/* .inner-box {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(51, 255, 0);
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+} */
+
+/* .modal {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(121, 155, 182);
+  position: absolute;
+
+  padding-left: 15px;
+  padding-right: 15px;
+} */
