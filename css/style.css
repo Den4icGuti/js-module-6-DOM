@@ -52,10 +52,14 @@ ul {
   padding-right: 15px;
 } */
 
-.button {
-  width: 50px;
-  height: 50px;
-  border: inherit;
-  border-radius: 4px;
-  margin-left: 10px;
+.card-product {
+  display: flex;
+  width: 940px;
+  background-color: rgb(179, 146, 82);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article {
+  margin-right: 20px;
 }
